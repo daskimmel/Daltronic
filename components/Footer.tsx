@@ -1,8 +1,7 @@
 
-
 const sectionStyle = {
     width: "100%",
-    height: "400px",
+    height: "300px",
     backgroundImage: "url(/DaltronicFooter.png)",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",

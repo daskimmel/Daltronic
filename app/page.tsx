@@ -19,27 +19,29 @@ const skills: Skill[] = [
     },
     {
         icon: <FaBoltLightning color="black" size={32} />,
-        title: "Electrical Controls Design",
-        description: "Start-to-Finish electrical design for projects of all sizes",
+        title: "XXXX",
+        description: "XXXXX",
     },
     {
         icon: <FaBoltLightning color="black" size={32} />,
-        title: "Electrical Controls Design",
-        description: "Start-to-Finish electrical design for projects of all sizes",
+        title: "YYYYY",
+        description: "YYYYY",
     },
     {
         icon: <FaBoltLightning color="black" size={32} />,
-        title: "Electrical Controls Design",
-        description: "Start-to-Finish electrical design for projects of all sizes",
+        title: "ZZZZZZ",
+        description: "ZZZZZZZ",
     },
 ];
 
 export default function Home() {
   return (
-    <div className="min-h-screen font-[family-name:var(--font-geist-sans)]">
-        <Header />
-        <div id="skills-container" className="p-8 flex justify-between">
-            {skills.map(skill => <SkillBox key={skill.title} skill={skill} />)}
+    <div className="min-h-screen font-[family-name:var(--font-geist-sans)] flex flex-col justify-between">
+        <div>
+            <Header />
+            <div id="skills-container" className="p-8 flex justify-between">
+                {skills.map(skill => <SkillBox key={skill.title} skill={skill} />)}
+            </div>
         </div>
         <Footer />
     </div>
