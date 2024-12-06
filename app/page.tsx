@@ -37,9 +37,10 @@ const skills: Skill[] = [
 export default function Home() {
   return (
     <div className="min-h-screen font-[family-name:var(--font-geist-sans)] flex flex-col justify-between">
+        <title>Daltronic LLC</title>
         <div>
             <Header />
-            <div id="skills-container" className="p-8 flex justify-between">
+            <div id="skills-container" className="p-8 flex justify-between flex-wrap">
                 {skills.map(skill => <SkillBox key={skill.title} skill={skill} />)}
             </div>
         </div>

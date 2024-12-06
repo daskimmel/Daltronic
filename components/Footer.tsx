@@ -1,7 +1,6 @@
 
 const sectionStyle = {
     width: "100%",
-    height: "300px",
     backgroundImage: "url(/DaltronicFooter.png)",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
@@ -9,7 +8,7 @@ const sectionStyle = {
 
 export default function Footer() {
     return (
-        <div style={sectionStyle} className="w-full sticky bottom-0">
+        <div style={sectionStyle} className="w-full bottom-0 h-[300px] sm:h-[200px]">
             <div className="p-8 flex flex-col justify-between h-3/4">
                 <h2 className="text-4xl">Contact</h2>
 
