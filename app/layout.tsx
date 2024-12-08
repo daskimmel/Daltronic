@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 
 import { Roboto_Condensed } from 'next/font/google';
-export const roboto = Roboto_Condensed({ subsets: ['latin'] });
+import {NextFont} from "next/dist/compiled/@next/font";
+const roboto: NextFont = Roboto_Condensed({ subsets: ['latin'] });
 
 
 export const metadata: Metadata = {
