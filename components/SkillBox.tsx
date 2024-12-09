@@ -1,4 +1,4 @@
-import {Skill} from "@/app/page";
+import {Skill} from "@/components/SkillSection";
 
 
 export default function SkillBox({ skill }: {skill: Skill} ) {

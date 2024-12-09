@@ -9,8 +9,9 @@ export default function AboutSection() {
             </div>
             <div className="mb-4 mt-8 font-bold text-black text-xl">About</div>
             <div className="my-4 text-gray-400">
-                Daltronic brings nearly a decade of automation and controls engineering experience to your project.
-                In-depth knowledge and experience in the full automation suite ensures your project will be a success,
+                Based in Denver, Colorado, Daltronic brings nearly a decade of automation
+                and controls engineering experience to your project. In-depth knowledge
+                and experience in the full automation suite ensures your project will be a success,
                 regardless of the application or scale.
             </div>
             <br/>
