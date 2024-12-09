@@ -44,6 +44,9 @@ export default function AboutSection() {
                 suddenly having issues, Daltronic has the experience in these high-stress situations to get your
                 equipment on track.
             </div>
+            <div className="mb-4 mt-8 font-semibold text-black text-center">
+                Use the contact information below to get in touch about your next project!
+            </div>
         </div>
     );
 }
